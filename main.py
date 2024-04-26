@@ -33,7 +33,13 @@ def deleteTask():
 
 if __name__ == "__main__":
   ### Create a loop to run the app
-  print("Welcome to the DO IT! To do list app :)")
+  print("Welcome to :")
+  print ("-----     ------        --------   -----------  | ")
+  print ("|    \    |    |           |            |       | ")       
+  print ("|     |   |    |           |            |       | ")         
+  print ("|    /    |    |           |            |       | ")     
+  print ("-----     ------        --------        |       0 ") 
+  print("Do It! is a To Do App, that helps you organize tasks.")
   while True:
     print("\n")
     print("Please select one of the following options")
@@ -58,3 +64,4 @@ if __name__ == "__main__":
       print("Invalid input. Please try again.")
 
   print(" Goodbye!! ")
+                        
